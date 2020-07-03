@@ -1,3 +1,6 @@
+body {
+  position: relative;
+}
 .container {
   margin-top: 100px;
 }
@@ -56,4 +59,29 @@
   .line div {
     width: 100px;
   }
+}
+
+.wintext-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+}
+
+.wintext-button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+  background-color: coral;
+  border: none;
 }
